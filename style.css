@@ -17,6 +17,15 @@ body {
   height: auto;
 }
 
+.about-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .about-container {
   max-width: 600px;
   margin: 80px auto;
@@ -24,8 +33,16 @@ body {
   padding: 0 20px;
 }
 
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+  width: 100%;
+}
+
 .icon-logo {
-  width: 80px;
+  width: 248px;
   margin-bottom: 20px;
 }
 
@@ -51,4 +68,8 @@ body {
 
 .nav-link.active {
   color: #1e1e1e;
+}
+
+.about-text {
+  max-width: 500px;
 }
