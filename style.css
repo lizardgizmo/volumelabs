@@ -46,9 +46,9 @@ body {
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  color: #1e1e1e;
 }
 
 .nav-link.active {
-  color: #ffffff;
+  color: #1e1e1e;
 }
