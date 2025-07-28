@@ -56,9 +56,9 @@ body {
 
 .nav-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 4px;
-  color: #949494;
+  color: #5a5a5a; /* darker gray for better visibility */
   transition: color 0.3s;
 }
 
