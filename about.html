@@ -7,11 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="about">
+  <div class="nav">
+    <a href="index.html" class="nav-link volume">VOLUME</a>
+    <a href="about.html" class="nav-link about">ABOUT</a>
+  </div>
   <div class="about-container">
     <img src="assets/icon.png" alt="Volume Labs Icon" class="icon-logo">
     <h1>VOLUME LABS</h1>
     <p>We are currently building a music education application.</p>
-    <p>Questions? Email: george(at)volumelabs.org</p>
+    <p>Questions? Email: gr(at)volumelabs.org</p>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".about")?.classList.add("active");
+    });
+  </script>
 </body>
 </html>

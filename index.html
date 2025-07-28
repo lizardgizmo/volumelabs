@@ -7,8 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="home">
-  <div class="container">
-    <img src="assets/Volume_Logo.png" alt="Volume Labs" class="full-logo">
+  <div class="nav">
+    <a href="index.html" class="nav-link volume">VOLUME</a>
+    <a href="about.html" class="nav-link about">ABOUT</a>
   </div>
+  <div class="container">
+    <img src="assets/logo.png" alt="Volume Labs Logo" class="full-logo">
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".volume")?.classList.add("active");
+    });
+  </script>
 </body>
 </html>
