@@ -73,7 +73,7 @@ body {
 .about-text h1 {
   font-size: 18px;
   margin: -10px 0 10px 0;
-  font-weight: normal;
+  font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #000;
