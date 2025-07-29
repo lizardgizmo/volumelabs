@@ -117,5 +117,16 @@ body {
     letter-spacing: 2px;
     line-height: 1.4;
   }
+
+.icon-logo {
+  opacity: 0;
+  animation: fadeInIcon 2.5s ease-out forwards;
+}
+
+@keyframes fadeInIcon {
+  to {
+    opacity: 1;
+  }
+}   
    
 }
