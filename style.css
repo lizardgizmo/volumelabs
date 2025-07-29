@@ -72,8 +72,10 @@ body {
 
 .about-text p {
   margin: 5px 0;
-  font-size: 14px;         /* Match nav size */
-  letter-spacing: 2px;     /* Slightly spaced out */
-  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  line-height: 1.6;
+  text-transform: uppercase;
   color: #000;
 }
