@@ -85,6 +85,9 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+   .center-wrapper {
+    height: calc(100vh - 60px);
+}
   }
 
   .icon-logo {
@@ -101,10 +104,5 @@ body {
     letter-spacing: 2px;
     line-height: 1.4;
   }
-
-  .nav {
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px 0;
-  }
+   
 }
