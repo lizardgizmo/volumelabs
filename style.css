@@ -70,6 +70,10 @@ body {
   color: #1e1e1e;
 }
 
-.about-text {
-  max-width: 500px;
+.about-text p {
+  margin: 5px 0;
+  font-size: 14px;         /* Match nav size */
+  letter-spacing: 2px;     /* Slightly spaced out */
+  font-weight: normal;
+  color: #000;
 }
