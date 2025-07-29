@@ -83,12 +83,11 @@ body {
   color: #1e1e1e;
 }
 
-.about-text p {
-  margin: 5px 0;
-  font-size: 14px;
+.about-text h1 {
+  font-size: 18px;
+  margin: -10px 0 10px 0; /* pulls heading up */
+  font-weight: normal;
   letter-spacing: 4px;
-  font-weight: 300;
-  line-height: 1.6;
   text-transform: uppercase;
   color: #000;
 }
